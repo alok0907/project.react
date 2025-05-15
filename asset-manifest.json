@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/project.react/app/home/static/css/main.141c9fc0.css",
-    "main.js": "/project.react/app/home/static/js/main.399803ad.js",
-    "static/js/787.f6043bab.chunk.js": "/project.react/app/home/static/js/787.f6043bab.chunk.js",
-    "static/media/slide2.jpg": "/project.react/app/home/static/media/slide2.bd30f81ed69ec04855af.jpg",
-    "static/media/about.jpg": "/project.react/app/home/static/media/about.390fa5cf996ad364f94b.jpg",
-    "static/media/slide3.jpg": "/project.react/app/home/static/media/slide3.ea2894aa046288b635bc.jpg",
-    "static/media/slide.jpg": "/project.react/app/home/static/media/slide.93cc5a7d2919f1587a0b.jpg",
-    "static/media/plot.jpg": "/project.react/app/home/static/media/plot.ff85e6694e3a3e69ba87.jpg",
-    "static/media/home.jpg": "/project.react/app/home/static/media/home.53016ae5a1d574e19f34.jpg",
-    "static/media/apartment.jpg": "/project.react/app/home/static/media/apartment.5126153ffe49a404864e.jpg",
-    "static/media/chat.png": "/project.react/app/home/static/media/chat.b298f4dd31d50535df33.png",
-    "static/media/call.jpg": "/project.react/app/home/static/media/call.5bc02232029294e5e14d.jpg",
-    "static/media/email.png": "/project.react/app/home/static/media/email.ea37028e12887905046d.png",
-    "index.html": "/project.react/app/home/index.html",
-    "main.141c9fc0.css.map": "/project.react/app/home/static/css/main.141c9fc0.css.map",
-    "main.399803ad.js.map": "/project.react/app/home/static/js/main.399803ad.js.map",
-    "787.f6043bab.chunk.js.map": "/project.react/app/home/static/js/787.f6043bab.chunk.js.map"
+    "main.css": "/project.react/static/css/main.141c9fc0.css",
+    "main.js": "/project.react/static/js/main.68269ad4.js",
+    "static/js/787.f6043bab.chunk.js": "/project.react/static/js/787.f6043bab.chunk.js",
+    "static/media/slide2.jpg": "/project.react/static/media/slide2.bd30f81ed69ec04855af.jpg",
+    "static/media/about.jpg": "/project.react/static/media/about.390fa5cf996ad364f94b.jpg",
+    "static/media/slide3.jpg": "/project.react/static/media/slide3.ea2894aa046288b635bc.jpg",
+    "static/media/slide.jpg": "/project.react/static/media/slide.93cc5a7d2919f1587a0b.jpg",
+    "static/media/plot.jpg": "/project.react/static/media/plot.ff85e6694e3a3e69ba87.jpg",
+    "static/media/home.jpg": "/project.react/static/media/home.53016ae5a1d574e19f34.jpg",
+    "static/media/apartment.jpg": "/project.react/static/media/apartment.5126153ffe49a404864e.jpg",
+    "static/media/chat.png": "/project.react/static/media/chat.b298f4dd31d50535df33.png",
+    "static/media/call.jpg": "/project.react/static/media/call.5bc02232029294e5e14d.jpg",
+    "static/media/email.png": "/project.react/static/media/email.ea37028e12887905046d.png",
+    "index.html": "/project.react/index.html",
+    "main.141c9fc0.css.map": "/project.react/static/css/main.141c9fc0.css.map",
+    "main.68269ad4.js.map": "/project.react/static/js/main.68269ad4.js.map",
+    "787.f6043bab.chunk.js.map": "/project.react/static/js/787.f6043bab.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.141c9fc0.css",
-    "static/js/main.399803ad.js"
+    "static/js/main.68269ad4.js"
   ]
 }
