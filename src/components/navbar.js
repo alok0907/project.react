@@ -2,10 +2,6 @@ import React, { Component } from "react";
 import logo from "../assets/img/favicon.png";
 import { LinkContainer } from "react-router-bootstrap";
 
-// import Home from "./home";
-// import About from "./about";
-// import Contact from "./contact";
-
 import Navbar from "react-bootstrap/Navbar";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";

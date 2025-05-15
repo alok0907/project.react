@@ -13,10 +13,13 @@ import Col from "react-bootstrap/Col";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 
+import { NavigationBar } from "./navbar";
+
 export default class Contact extends Component {
   render() {
     return (
       <>
+        <NavigationBar />
         <Heading title="Contact Us" />
         <Container className="my-5">
           <Row>

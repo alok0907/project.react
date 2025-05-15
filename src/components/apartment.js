@@ -2,10 +2,14 @@ import React, { Component } from "react";
 import { Footer } from "./footer";
 import Heading from "./heading";
 import apartment from "../assets/img/cards/apartment.jpg";
+
+import { NavigationBar } from "./navbar";
+
 export default class Apartment extends Component {
   render() {
     return (
       <>
+        <NavigationBar />
         <Heading title="Apartments" />
         <div className="container mt-5">
           <div className="row row-cols-1 row-cols-lg-2 my-5">

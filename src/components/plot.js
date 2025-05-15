@@ -3,10 +3,13 @@ import { Footer } from "./footer";
 import Heading from "./heading";
 import plot from "../assets/img/cards/plot.jpg";
 
+import { NavigationBar } from "./navbar";
+
 export default class Plot extends Component {
   render() {
     return (
       <>
+        <NavigationBar />
         <Heading title="Residential Plots" />
         <div className="container mt-5">
           <div className="row row-cols-1 row-cols-lg-2 my-5">

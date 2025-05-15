@@ -3,6 +3,8 @@ import Heading from "./heading";
 import { Footer } from "./footer";
 import LoginPresentation from "./loginpresentation";
 
+import { NavigationBar } from "./navbar";
+
 export default class LoginContainer extends Component {
   constructor(props) {
     super(props);
@@ -35,6 +37,7 @@ export default class LoginContainer extends Component {
   render() {
     return (
       <>
+        <NavigationBar />
         <Heading title="Login" />
         <LoginPresentation
           handleEmail={this.handleEmail}

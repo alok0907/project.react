@@ -1,6 +1,5 @@
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { NavigationBar } from "./components/navbar";
 
 import About from "./components/about";
 import Home from "./components/home";
@@ -14,7 +13,6 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        <NavigationBar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />

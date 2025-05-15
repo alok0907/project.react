@@ -3,10 +3,13 @@ import { Footer } from "./footer";
 import Heading from "./heading";
 import housePic from "../assets/img/cards/home.jpg";
 
+import { NavigationBar } from "./navbar";
+
 export default class House extends Component {
   render() {
     return (
       <>
+        <NavigationBar />
         <Heading title="Houses" />
         <div className="container mt-5">
           <div className="row row-cols-1 row-cols-lg-2 my-5">

@@ -3,12 +3,12 @@ import Heading from "./heading";
 import { Footer } from "./footer";
 import aboutPic from "../assets/img/about/about.jpg";
 
-import { LinkContainer } from "react-router-bootstrap";
-import { Outlet } from "react-router-dom";
+import { NavigationBar } from "./navbar";
 
 export default function About() {
   return (
     <>
+      <NavigationBar />
       <Heading title="About Us" />
 
       <div className="container mt-5">
