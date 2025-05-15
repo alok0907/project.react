@@ -6,14 +6,8 @@ export default class LoginPresentation extends Component {
       <>
         <div className="container-fluid py-5">
           <div className="row row-cols-auto mt-3 justify-content-center">
-            <div className="col">
-              <h3>For Weather Report</h3>
-              <a href="/weather">
-                <button className="btn btn-primary">click here</button>
-              </a>
-            </div>
             <div className="col my-5 pt-4 px-4 px-lg-5 shadow-lg mb-5 bg-light rounded">
-              <form>
+              <form onSubmit={this.props.handleSubmit}>
                 <div className="my-3">
                   <label htmlFor="exampleInputEmail1" className="form-label">
                     Email
@@ -48,13 +42,6 @@ export default class LoginPresentation extends Component {
               </form>
             </div>
           </div>
-          <div className="row my-5 text-center">
-            <div className="col mx-auto my-5 bg-warning">
-              <h1>Output :</h1>
-              <p>Email : {this.props.email}</p>
-              <p>Password: {this.props.password}</p>
-            </div>
-          </div>
         </div>
       </>
     );
@@ -66,4 +53,5 @@ LoginPresentation.propTypes = {
   password: PropTypes.string.isRequired,
   handleEmail: PropTypes.func.isRequired,
   handlePassword: PropTypes.func.isRequired,
+  handleSubmit: PropTypes.func.isRequired,
 };

@@ -1,21 +1,5 @@
 /*#-----   CUSTOM CSS   ------ */
 
-/*#  Goods Component  */
-
-/* .para {
-  text-align: center;
-  margin-bottom: 40px;
-}
-
-.info {                   
-  text-align: center;
-  margin-top: 10px;
-  height: 45px;
-  width: auto;
-  color: maroon;
-  font-weight: bold
-} */
-
 /*#  Footer Component  */
 .footer {
   padding-top: 20px;
@@ -30,6 +14,16 @@
 .footer li {
   color: rgb(228, 206, 177);
 }
+
+.footer li a {
+  color: rgb(228, 206, 177);
+  text-decoration: none;
+}
+
+.footer li a:hover {
+  font-size: 105%;
+}
+
 .footer p {
   color: rgb(218, 243, 209);
 }

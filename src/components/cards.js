@@ -1,13 +1,14 @@
 import React, { Component } from "react";
 import "../assets/css/custom.css";
 
-//import CardGroup from 'react-bootstrap/CardGroup';
+//@ Import CardGroup from 'react-bootstrap/CardGroup';
 import Card from "react-bootstrap/Card";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
-import home from "../assets/img/cards/home.jpg";
+//@ Images for Cards
+import house from "../assets/img/cards/home.jpg";
 import plot from "../assets/img/cards/plot.jpg";
 import apartment from "../assets/img/cards/apartment.jpg";
 
@@ -31,7 +32,7 @@ export class Cards extends Component {
                 text="dark"
                 style={{ width: "18rem" }}
               >
-                <Card.Img variant="top" src={home} />
+                <Card.Img variant="top" src={house} />
                 <Card.Body>
                   <Card.Title className="text-center fw-bolder">
                     Houses
@@ -43,7 +44,9 @@ export class Cards extends Component {
                   </Card.Text>
                 </Card.Body>
                 <Card.Footer className="bg-dark text-light text-center">
-                  <small>Learn more...</small>
+                  <a className="text-light" href="/house">
+                    Learn more...
+                  </a>
                 </Card.Footer>
               </Card>
             </Col>
@@ -67,7 +70,9 @@ export class Cards extends Component {
                   </Card.Text>
                 </Card.Body>
                 <Card.Footer className="bg-dark text-light text-center">
-                  <small>Learn more...</small>
+                  <a className="text-light" href="/plot">
+                    Learn more...
+                  </a>
                 </Card.Footer>
               </Card>
             </Col>
@@ -91,7 +96,9 @@ export class Cards extends Component {
                   </Card.Text>
                 </Card.Body>
                 <Card.Footer className="bg-dark text-light  text-center">
-                  <small>Learn more...</small>
+                  <a className="text-light" href="/apartment">
+                    Learn more...
+                  </a>
                 </Card.Footer>
               </Card>
             </Col>
