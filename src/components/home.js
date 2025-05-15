@@ -1,4 +1,3 @@
-// import { NavigationBar } from "./navbar";
 import { Slides } from "./slides";
 import { Cards } from "./cards";
 import { Footer } from "./footer";
